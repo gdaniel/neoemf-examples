@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Importer
+Bundle-SymbolicName: fr.gdaniel.neoemf.example.importer
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: fr.gdaniel.neoemf.example.importer
+Export-Package: fr.gdaniel.neoemf.example.importer
+Require-Bundle: fr.inria.atlanmod.neoemf.core;bundle-version="2.0.0",
+ fr.inria.atlanmod.neoemf.data.blueprints.core;bundle-version="2.0.0",
+ fr.inria.atlanmod.neoemf.data.blueprints.neo4j;bundle-version="2.0.0",
+ fr.inria.atlanmod.neoemf.io;bundle-version="2.0.0",
+ org.amma.dsl.jdt.core;bundle-version="0.1.0"
